@@ -24,7 +24,7 @@ d3_files=("$d3_dir"*.gz)
 echo "Running incremental katello-backup\n"
 echo "This may take a while....\n"
 
-# katello-backup $inc_dir --incremental $src_dir
+katello-backup $inc_dir --incremental $src_dir
 
 for ((i=0; i < ${#srcfiles[@]}; i+=1)); do
         rm -f "${d3_files[i]}";                        # remove oldest backup without prompt
