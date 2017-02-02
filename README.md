@@ -7,4 +7,4 @@ Run manually or add to cron
 
 * This will retain the last 3 backups.
 
-* Incremental backups will take katello offline until process is completed
+* Incremental backups will take Katello/Satellite offline until process is completed
